@@ -1,0 +1,15 @@
+.emptyContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.emptyContainer img{
+    width: 300px;
+    height: 300px;
+}

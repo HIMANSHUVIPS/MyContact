@@ -1,0 +1,18 @@
+.nav{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Exo 2", sans-serif;
+    padding:10px;
+    gap: 10px;
+    border-radius: 20px;
+}
+.nav img{
+    width: 70px;
+}
+.nav h1{
+    height: 100%;
+    font-size: 6vmin;
+    color: rgb(44, 44, 44);
+}

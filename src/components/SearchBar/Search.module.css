@@ -1,0 +1,33 @@
+.serchContainer{
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+}
+.serchContainer input{
+    width: 300px;
+    font-size: 3vmin;
+    border-radius: 30px;
+    height: 100%;
+    padding: 10px 20px;
+    background-color: #5D5A5A;
+    border: 1px solid white;
+    color: white;
+    font-family: 'poppins';
+}
+.serchContainer input::placeholder{
+    color: white;
+    font-weight: 600;
+}
+.serchContainer button{
+    font-size: 3vmin;
+    font-weight: 900;
+    border-radius: 50%;
+    border: 1px solid black;
+    outline: none;
+    height: 45px;
+    width: 45px;
+}

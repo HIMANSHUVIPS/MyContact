@@ -1,0 +1,87 @@
+/* General layout and structure */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contactCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.contactIcon {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.contactDetail {
+    text-align: center;
+}
+
+.contactName, .contactEmail {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    margin: 8px 0;
+}
+
+.contactName {
+    font-size: 1.2rem;
+}
+
+.contactEmail {
+    font-size: 1rem;
+    color: #777;
+}
+
+.contactActions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.actionIcon {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #007bff;
+    transition: color 0.2s ease;
+}
+
+.actionIcon:hover {
+    color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .contactCard {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contactDetail {
+        text-align: left;
+    }
+}

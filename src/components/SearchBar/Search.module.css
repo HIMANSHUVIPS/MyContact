@@ -6,6 +6,7 @@
     align-items: center;
     gap: 20px;
     height: 50px;
+    
 }
 .serchContainer input{
     width: 300px;
@@ -17,17 +18,36 @@
     border: 1px solid white;
     color: white;
     font-family: 'poppins';
+    padding-left: 45px;
+}.input{
+    position: relative;
 }
 .serchContainer input::placeholder{
     color: white;
     font-weight: 600;
 }
+.serchContainer input:focus{
+   outline: none;
+}
 .serchContainer button{
     font-size: 3vmin;
     font-weight: 900;
     border-radius: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     outline: none;
     height: 45px;
     width: 45px;
+    z-index: 1;
+    cursor: pointer;
+}
+.serchContainer button:active{
+    color: white;
+    background-color: black;
+}
+.searchIcon{
+    position: absolute;
+    color: white;
+    z-index: 2;
+    left: 39%;
+    font-size: 1.3rem;
 }

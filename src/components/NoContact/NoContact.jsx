@@ -3,7 +3,7 @@ import styles from "./NoContact.module.css";
 const NoContact = ({ghost}) => {
   return (
     <div className={styles.emptyContainer}>
-      <img src={ghost} alt="" srcset="" />
+      <img src={ghost} alt=""  />
     </div>
   );
 };
